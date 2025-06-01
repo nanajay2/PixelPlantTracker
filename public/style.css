@@ -1,20 +1,21 @@
 body {
   font-family: "Courier New", monospace;
-  background-color: #d0f0c0;
+  background-color: none; /*#d0f0c0;*/
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
 
-.tracker {
+/* .tracker {
   background: #fff;
   padding: 2rem;
   border: 4px solid #333;
   border-radius: 16px;
   text-align: center;
   box-shadow: 4px 4px 0 #888;
-  max-width: 300px;
+  max-width: 300px; */
 
   h1 {
     font-size: 1.5rem;
@@ -26,29 +27,6 @@ body {
     margin: 1rem 0;
   }
 
-  .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-
-    button {
-      background: #4caf50;
-      border: none;
-      color: white;
-      font-size: 1.2rem;
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-      cursor: pointer;
-
-      &:hover {
-        background: #388e3c;
-      }
-    }
-
     #progress {
       font-size: 1.2rem;
     }
-  }
-}

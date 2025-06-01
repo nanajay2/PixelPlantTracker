@@ -4,8 +4,8 @@ const trackerDiv = document.querySelector('.tracker');
 function showLoading() {
   let loader = document.createElement('p');
   loader.id = 'loading-text';
-  loader.textContent = 'Caricamento in corso... ⏳';
-  trackerDiv.appendChild(loader);
+  // loader.textContent = 'Caricamento in corso... ⏳';
+  // trackerDiv.appendChild(loader);
 }
 
 function hideLoading() {
